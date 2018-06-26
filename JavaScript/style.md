@@ -944,12 +944,12 @@ var name = 'Tracy McGrady';
 
  ``` javascript
  // ✗ bad
- var name = 'Bob Parr';
+ var name = "Bob Parr";
  var element = `<div class="box"></div>`;
  var message = 'I don\'t like quotes.';
 
  // ✓ good
- var name = "Bob Parr";
+ var name = 'Bob Parr';
  var element = `<div class="${className}"></div>`;
  var message = "I don't like quotes.";
  ```
